@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="nightwatcher"
+version="1.1.0"
+displayName="Night Watcher"
+description='''
+Horror mod: a stalker that moves only when you are not looking, plus creepy ambient events.
+'''
+
+[[dependencies.nightwatcher]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nightwatcher]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
